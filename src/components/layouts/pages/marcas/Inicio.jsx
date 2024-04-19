@@ -35,16 +35,16 @@ function Inicio() {
       <main className="contenido">
        <Head></Head>
         <div className="carousel">
-          <Link to="americanino.html">
-            <img className="carousel-img active" src="/src/assets/img/AMERICANINO_Walper.png" alt="Imagen 1" />
+          <Link to="/Americanino">
+            <img className="carousel-0img active" src="/src/assets/img/AMERICANINO_Walper.png" alt="Imagen 1" />
           </Link>
-          <Link to="nafNaf.html">
+          <Link to="/Naf-naf">
             <img className="carousel-img" src="/src/assets/img/naf_naf_walper_.png" alt="Imagen 2" />
           </Link>
-          <Link to="chevignon">
+          <Link to="/Chevignon">
             <img className="carousel-img" src="/src/assets/img/chevignono_walper.jpg" alt="Imagen 3" />
           </Link>
-          <Link to="motherCare.html">
+          <Link to="/MotherCare">
             <img className="carousel-img" src="/src/assets/img/mother_care_walper.jpg" alt="Imagen 4" />
           </Link>
           <button className="carousel-btn prev" onClick={() => changeSlide(-1)}>&#10094;</button>
