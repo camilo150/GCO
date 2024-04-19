@@ -2,13 +2,17 @@ import React from 'react'
 import Head from '../interfaz/Head'
 import Foother from '../interfaz/Foother'
 import { Link } from 'react-router-dom'
+import Carro from '../interfaz/Carro'
 function Chevignon() {
   return (
     <>
     <header className="cabeza">
+        
         <Link className="logo" to="/">
         <h1>GCO</h1>
+    
          </Link> 
+         <Carro/>
 </header>
 <Head></Head>
  <main id="mainChevignon">  

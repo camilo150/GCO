@@ -2,6 +2,7 @@ import React from 'react'
 import Foother from "../interfaz/Foother"
 import Head from "../interfaz/Head"
 import { Link } from 'react-router-dom'
+import Carro from '../interfaz/Carro'
 function Americanino() {
   return (
   <>
@@ -9,8 +10,10 @@ function Americanino() {
 <Link class="logoAmericanino" to="/">
   <h1>GCO</h1>
 </Link>
+<Carro/>
 </header>
     <Head/>
+    <main id='mainAMERICANINO'>
     <section id="AMERICANINO">
 <img src="src/assets/img/wap" alt="" />
   <section className="RopasAMERICANINO">
@@ -139,7 +142,7 @@ function Americanino() {
     <input className="comprarAMERCANINO" type="button" value="Comprar" />
   </div>
 </section>
-</section>
+</section></main>
     <Foother/>
     </>
   )

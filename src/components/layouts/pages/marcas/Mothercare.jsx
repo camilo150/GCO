@@ -2,6 +2,7 @@ import React from 'react'
 import Foother from '../interfaz/Foother'
 import Head from "../../pages/interfaz/Head"
 import { Link } from 'react-router-dom';
+import Carro from '../interfaz/Carro';
 function Mothercare() {
   return (
     <>
@@ -9,6 +10,7 @@ function Mothercare() {
       <Link className="logoMothercare" to="/">
        <h1>GCO</h1>
       </Link>
+      <Carro/>
       </header>
       <Head />
       <main id="mainMothercare">

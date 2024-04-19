@@ -2,6 +2,7 @@ import React from 'react'
 import Head from '../interfaz/Head'
 import Foother from '../interfaz/Foother'
 import { Link } from 'react-router-dom'
+import Carro from '../interfaz/Carro'
 function Nafnaf() {
   return (
     <>
@@ -9,6 +10,7 @@ function Nafnaf() {
 <Link className="logoNafnaf" to="/">
     <h1>GCO</h1>
 </Link>
+<Carro/>
 </header>
     <main id="mainNafnaf">
       <Head/>
